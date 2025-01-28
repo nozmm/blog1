@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,223 +11,169 @@
     <meta property="og:image" content="https://via.placeholder.com/600x315">
     <meta property="og:url" content="https://nozmm.github.io.github.io/blog1">
     <title>Sophie Rain Spiderman - Video Online Viral News Trending on Social Media</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
-        /* Resetting margin and padding */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Basic styling */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000102, #0f2c75);
+            color: white;
         }
-
-        /* Header Styling */
         header {
-            background-color: #333;
+            background: #05257a;
             color: #fff;
-            padding: 20px 0;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
-
-        header h1 {
-            text-align: center;
-            font-size: 2.5rem;
+        header nav {
+            display: flex;
+            gap: 15px;
         }
-
-        nav ul {
-            list-style: none;
-            text-align: center;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
+        header nav a {
             text-decoration: none;
-            font-size: 1.1rem;
-        }
-
-        /* Hero Section */
-        .hero {
-            background-color: #007bff;
-            color: #fff;
-            padding: 50px 0;
-            text-align: center;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-        }
-
-        /* Content Section */
-        .content {
-            padding: 50px 0;
-            background-color: #fff;
-        }
-
-        .content h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 30px;
-        }
-
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .news-item {
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .news-item i {
-            font-size: 50px;
-            color: #007bff;
-            margin-bottom: 15px;
-        }
-
-        .news-item h3 {
-            font-size: 1.5rem;
-            margin: 15px 0;
-        }
-
-        .news-item a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
+            color: white;
+            background: hsl(244, 92%, 20%);
+            padding: 10px 15px;
             border-radius: 5px;
+            transition: background 0.3s;
         }
-
-        .news-item a:hover {
-            background-color: #0056b3;
+        header nav a:hover {
+            background: #aaa;
+            color: #000;
         }
-
-        /* Footer Styling */
-        footer {
-            background-color: #333;
-            color: #fff;
+        .container {
             text-align: center;
-            padding: 20px 0;
+            padding: 50px 20px;
         }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .news-item i {
-                font-size: 40px;
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(88, 163, 215);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
             }
-            .hero h2 {
-                font-size: 2rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
-            header h1 {
-                font-size: 2rem;
+            50% {
+                transform: translateY(-10px);
             }
         }
-
-        @media (max-width: 480px) {
-            .news-item i {
-                font-size: 30px;
+        h1 {
+            font-family: "Times New Roman", serif;
+            margin-top: 20px;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(98, 137, 244, 0.7);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #fff;
+        }
+        .footer a {
+            color: #4ea7f1;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: transform 0.3s;
+        }
+        .footer a:hover {
+            transform: scale(1.2);
+        }
+        .glitter {
+            animation: sparkle 2s infinite;
+        }
+        @keyframes sparkle {
+            0% {
+                text-shadow: 0 0 5px #fff, 0 0 10px rgb(146, 197, 255), 0 0 20px gold;
             }
-            .hero h2 {
-                font-size: 1.8rem;
+            50% {
+                text-shadow: 0 0 10px #fff, 0 0 15px rgb(123, 190, 238), 0 0 30px gold;
             }
-            header h1 {
-                font-size: 1.8rem;
-            }
-            nav ul li {
-                display: block;
-                margin: 10px 0;
+            100% {
+                text-shadow: 0 0 5px #fff, 0 0 10px rgb(134, 186, 250), 0 0 20px gold;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>FlashNewsID</h1>
+        <div>Portfolio</div>
         <nav>
-            <ul>
-                <li><a href="#">Berita Artis</a></li>
-                <li><a href="#">Berita Atlet</a></li>
-                <li><a href="#">Berita Politik</a></li>
-                <li><a href="#">Berita Publik Figur</a></li>
-            </ul>
+            <a href="#about">Tentang Saya</a>
+            <a href="#education">Pendidikan</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#skills">Skill</a>
+            <a href="#hobbies">Hobi</a>
+            <a href="#contact">Kontak</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Berita Terkini, Terpercaya, dan Viral</h2>
-        <p>Ikuti kabar terbaru tentang artis, atlet, politik, dan publik figur lainnya hanya di FlashNewsID.</p>
-    </section>
+    <div class="container">
+        <img src="img/foto nay.jpg" alt="Foto Profil" class="profile-pic">
+        <h1 class="glitter">Nayla Febrianti</h1>
+        <p>Selamat datang di portfolio saya!</p>
+    </div>
 
-    <section class="content">
-        <h2>Berita Populer</h2>
-        <div class="news-grid">
-            <div class="news-item">
-                <i class="fas fa-user-alt"></i>
-                <h3>Berita Artis Terkini</h3>
-                <p>Deskripsi singkat tentang berita artis yang sedang viral.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-            <div class="news-item">
-                <i class="fas fa-trophy"></i>
-                <h3>Prestasi Atlet Terbaru</h3>
-                <p>Berita tentang atlet yang baru saja memenangkan kompetisi penting.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-            <div class="news-item">
-                <i class="fas fa-gavel"></i>
-                <h3>Politik Terkini</h3>
-                <p>Berita terbaru seputar dunia politik dan pengaruhnya terhadap masyarakat.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-            <div class="news-item">
-                <i class="fas fa-users"></i>
-                <h3>Kehidupan Publik Figur</h3>
-                <p>Kabar terbaru tentang kehidupan pribadi publik figur yang sedang hangat diperbincangkan.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-            <div class="news-item">
-                <i class="fas fa-user-secret"></i>
-                <h3>Kontroversi Artis</h3>
-                <p>Terungkapnya kontroversi terbaru yang melibatkan selebriti papan atas.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-            <div class="news-item">
-                <i class="fas fa-heart"></i>
-                <h3>Hubungan Cinta Publik Figur</h3>
-                <p>Kisah romantis dan hubungan cinta yang menarik perhatian publik.</p>
-                <a href="#">Baca Selengkapnya</a>
-            </div>
-        </div>
-    </section>
+    <div id="about" class="content">
+        <h2>Tentang Saya</h2>
+        <p>Saya Adalah seorang pribadi yang terampil dalam manajemen waktu dengan latar pendidikan Ilmu Komputer yang sedang ditempuh membuat saya menguasai teknik dalam bidang Microsoft Office, Word, Excel, Powerpoint dan Canva maupun AI. Saya juga aktif sebagai content creator di kampus. Saya bertanggung jawab untuk membuat konten yang menarik dan informatif untuk berbagai platform lalu mengikuti tren terbaru di dunia content. Dan selalu mengasah keterampilan saya, antusias menghadapi tantangan baru dan bekerja sama secara individu maupun berkelompok.</p>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 FlashNewsID. Semua Hak Cipta Dilindungi.</p>
+    <div id="education" class="content">
+        <h2>Pendidikan</h2>
+        <p>2020 - 2023 | SMA NEGERI 2 TANGERANG | Ilmu Pengetahuan Alam.</p>
+        <p>2023 - Saat ini | UNIVERSITAS YATSI MADANI | Ilmu Komputer.</p>
+    </div>
+
+    <div id="experience" class="content">
+        <h2>Pengalaman</h2>
+        <p>• Anggota OSIS Koor Sekbid 7 | SMAN 2 TANGERANG | 1 Tahun 2022-2023</p>
+        <p>Memimpin anggota dalam tanggung jawab untuk menjalanakan rapat koodinator dan perencanaan, pelaksanaan, dan evaluasi kegiatan serta menjalin kerja sama dengan ekstrakurikuler PMR SMA.</p>
+        <p>• Panitia Acara Sekolah DOETA FEST 2022 | SMAN 2 TANGERANG</p>
+        <p>Bertangguang jawab menjadi divisi konsumsi merancanakan, memesan, dan memberi makanan untuk seluruh peserta lomba, artis, dan panitia bertugas.</p>
+        <p>• Mengajar di RA Nurul Amin | 2 Bulan-2023</p>
+        <p>Berpengalaman mengajar membaca, Menulis dan bernyanyi anak-anak di RA Nurul Amin dengan fokus pada pembentukan karakter, pengembangan keterampilan dasar anak usia dini, dan menyenangkan.</p>
+        <p>• Karyawan | PT. RAMAYANA | 3 Bulan-2023</p>
+        <p>Menjual pakaian pria brand Alamalaka dan mempromosikan langsung kepada konsumen maupun online seperti live shopee untuk mencapai target, dan menghitung hasil jual.</p>
+        <p>• Tim Content Creator | Universitas Yatsi Madani | 2023-Saat ini</p>
+        <p>Membuat konten kreatif video dan fotoshoot untuk mempromosikan kampus.</p>
+        <p>• Tim Volunteer Fashion Show | AZZURA 2024</p>
+        <p>Bertangguang jawab menjadi divisi konsumsi memberikan makan dan minuman untuk seluruh panitia, modeling, dan juri.</p>
+    </div>
+
+    <div id="skills" class="content">
+        <h2>Keahlian</h2>
+        <p>• Berkomunikasi dengan baik</p>
+        <p>• Dapat mengatur waktu dengan efektif untuk pekerjaan dan perkuliahan</p>
+        <p>• Memahaman Make-Up, Pose dan Ekspresi</p>
+        <p>• Mampu berkolaborasi dan bekerja sama secara individu maupun berkelompok</p>
+    </div>
+
+    <div id="hobbies" class="content">
+        <h2>Hobi</h2>
+        <p>• Memasak</p>
+        <p>• Melukis warna dengan canvas</p>
+    </div>
+
+    <footer class="footer">
+        <p>Hubungi Saya</p>
+        <a href="naylafebriantiuym@gmail.com">📧 Email</a>
+        <a href="linkedin.com/in/nayla-febrianti-722438342">🔗 LinkedIn</a>
+        <a href="https://www.instagram.com/neylf_?igsh=NTAyb3oxdHIyc2J2">📸 Instagram</a>
     </footer>
 </body>
 </html>
